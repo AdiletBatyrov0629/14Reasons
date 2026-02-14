@@ -11,7 +11,7 @@ const cards = [
         story: 'Только с тобой я понял что такое комфорт, любимая. С тобой уютнее, чем где либо и с кем либо.',
         Icon: Coffee,
         color: '#FFD700',
-        image: '/reason1.jpeg',
+        image: `${import.meta.env.BASE_URL}reason1.jpeg`,
     },
     {
         id: 2,
@@ -19,7 +19,7 @@ const cards = [
         story: 'Уххх, ты такая сладкая красавица, что так и хочется тебя скушать. Нашим детям так повезло с тобой.',
         Icon: Sparkles,
         color: '#FF69B4',
-        image: '/reason2.jpeg',
+        image: `${import.meta.env.BASE_URL}reason2.jpeg`,
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ const cards = [
         story: 'Ты за все прикольчики мемчики шаришь, моя зайка. Я ни с кем никогда так не смеялся, как с тобой.',
         Icon: Laugh,
         color: '#9B59B6',
-        image: '/reason3.jpeg',
+        image: `${import.meta.env.BASE_URL}reason3.jpeg`,
     },
     {
         id: 4,
@@ -35,7 +35,7 @@ const cards = [
         story: 'Ты так мило показываешь любовь, и у тебя всегда такие крутые необычные идеи, дорогая. До сих пор помню, как ты сделала нашу лучшую семью в симсе.',
         Icon: Palette,
         color: '#E67E22',
-        image: '/reason4.jpeg',
+        image: `${import.meta.env.BASE_URL}reason4.jpeg`,
     },
     {
         id: 5,
@@ -43,7 +43,7 @@ const cards = [
         story: 'Я хочу вечность нежится в твоих самых теплых объятиях. Я тебя не отпущу, красавица.',
         Icon: Feather,
         color: '#FFB6C1',
-        image: '/reason5.jpeg',
+        image: `${import.meta.env.BASE_URL}reason5.jpeg`,
     },
     {
         id: 6,
@@ -51,7 +51,7 @@ const cards = [
         story: 'С тобой я всегда чувствую себя в любви, и ты всегда поддерживаешь меня. Только ты так хорошо понимаешь, как я себя чувствтую.',
         Icon: HandHelping,
         color: '#F1C40F',
-        image: '/reason6.jpeg',
+        image: `${import.meta.env.BASE_URL}reason6.jpeg`,
     },
     {
         id: 7,
@@ -59,7 +59,7 @@ const cards = [
         story: 'Только с тобой я вижу свое будущее, и я знаю, что ты всегда рядом(даже на расстоянии).',
         Icon: Anchor,
         color: '#3498DB',
-        image: '/reason7.jpeg',
+        image: `${import.meta.env.BASE_URL}reason7.jpeg`,
     },
     {
         id: 8,
@@ -67,7 +67,7 @@ const cards = [
         story: 'Ты так искренне всегда показываешь свою бесконечную любовь ко мне. Ты - настоящая, и поэтому такая прекрасная.',
         Icon: Gem,
         color: '#1ABC9C',
-        image: '/reason8.jpeg',
+        image: `${import.meta.env.BASE_URL}reason8.jpeg`,
     },
     {
         id: 9,
@@ -75,7 +75,7 @@ const cards = [
         story: 'Боже, как вообще возможно быть настолько милой булочкой. Я тебя всю зацелую.',
         Icon: Smile,
         color: '#E74C3C',
-        image: '/reason9.jpeg',
+        image: `${import.meta.env.BASE_URL}reason9.jpeg`,
     },
     {
         id: 10,
@@ -83,7 +83,7 @@ const cards = [
         story: 'Ты помнишь мои предпочтения, любимые вещи и все все обо мне. Ты так заботишься о том, чтобы я был счастлив, и я это вижу.',
         Icon: Umbrella,
         color: '#E91E63',
-        image: '/reason10.jpeg',
+        image: `${import.meta.env.BASE_URL}reason10.jpeg`,
     },
     {
         id: 11,
@@ -91,7 +91,7 @@ const cards = [
         story: 'Ты всегда так стараешься, когда что то делаешь, и это влюбляет меня в тебя каждый раз.',
         Icon: Wand2,
         color: '#8E44AD',
-        image: '/reason11.jpeg',
+        image: `${import.meta.env.BASE_URL}reason11.jpeg`,
     },
     {
         id: 12,
@@ -99,7 +99,7 @@ const cards = [
         story: 'С тобой мне интересно все, и это так волшебно. Ты умеешь сделать каждый звонок интересным и веселым.',
         Icon: Zap,
         color: '#2ECC71',
-        image: '/reason12.jpeg',
+        image: `${import.meta.env.BASE_URL}reason12.jpeg`,
     },
     {
         id: 13,
@@ -107,7 +107,7 @@ const cards = [
         story: 'Твои мечты такие милые, я обожаю, когда мы разговариваем о нашем прекрасном будущем и я все помню, милая.',
         Icon: Cloud,
         color: '#6C5CE7',
-        image: '/reason13.jpeg',
+        image: `${import.meta.env.BASE_URL}reason13.jpeg`,
     },
     {
         id: 14,
@@ -115,7 +115,7 @@ const cards = [
         story: 'С тобой я понял, что такое по настоящему любить и быть любимым. С праздником, редиска, я точно знаю, что мы будем праздновать этот день еще бесконечность бесконечностей.',
         Icon: Heart,
         color: '#FF1A00',
-        image: '/reason14.jpeg',
+        image: `${import.meta.env.BASE_URL}reason14.jpeg`,
     },
 ];
 
